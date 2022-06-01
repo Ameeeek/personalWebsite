@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}", "./node_modules/tw-elements/dist/js/**/*.js"],
   theme: {
     textFillColor: (theme) => theme("borderColor"),
     textStrokeColor: (theme) => theme("borderColor"),
@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {}, 
   },
-  plugins: [require("tailwindcss-text-fill-stroke")()],
+  plugins: [require("tailwindcss-text-fill-stroke")(), require('tw-elements/dist/plugin')],
   variants: {
     // all the following default to ['responsive']
     textFillColor: ["responsive"],

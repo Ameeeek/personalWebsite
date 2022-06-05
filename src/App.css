@@ -113,3 +113,7 @@ button {
   display:grid;
   place-items:center;
 }
+.card{
+  display:flex;
+  justify-content:center;
+}

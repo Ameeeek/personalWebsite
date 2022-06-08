@@ -109,11 +109,37 @@ button {
   background-size: 100px 100px;
   background-color: #a21b2d;
 }
-.container{
-  display:grid;
-  place-items:center;
-}
+
 .card{
   display:flex;
   justify-content:center;
+}
+
+.hover::after{
+  display:grid;
+  place-items:center;
+  content:"hello";
+  background-color:212121;
+  position: absolute;
+}
+.card:hover .overlay{
+  height: 100%;
+}
+.container:hover .overlay{
+  height: 100%;
+}
+.merah{
+  color:#a21b2d;
+}
+.link::after{
+  content:'';
+  width:0px;
+  display:block;
+  height:2px;
+  transition: .2s ease-in-out;
+  background-color: white;
+}
+.link:hover::after{
+  width: 100%;
+  transition: .2s ease-in-out;
 }

@@ -17,10 +17,10 @@ function Contact() {
           <span> idea and puts it on the internet?</span>
         </blockquote>
         <p className="md:py-4 md:text-2xl">then let's get in touch!</p>
-        <div className="Links grid place-items-center py-4 ">
-          <a href="#" className="py-2 link">instagram</a>
-          <a href="#" className="py-2 link">twitter</a>
-          <a href="#" className="py-2 link">discord</a>
+        <div  className="Links grid place-items-center py-4 ">
+          <a data-aos="fade-up" data-aos-duration="1000" href="#" data-aos-delay="100" className="py-2 link">instagram</a>
+          <a data-aos="fade-up" data-aos-duration="1000" href="#"  data-aos-delay="150" className="py-2 link">twitter</a>
+          <a data-aos="fade-up" data-aos-duration="1000" href="#" data-aos-delay="200"  className="py-2 link">discord</a>
         </div>
       </div>
     </>

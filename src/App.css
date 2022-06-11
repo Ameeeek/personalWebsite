@@ -125,9 +125,12 @@ button {
 .card:hover .overlay{
   height: 100%;
 }
-.container:hover .overlay{
-  height: 100%;
+.card:focus .overlay{
+  height:100%;
 }
+/* .container::focus .overlay{
+  height:100%;
+} */
 .merah{
   color:#a21b2d;
 }

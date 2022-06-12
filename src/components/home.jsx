@@ -27,7 +27,7 @@ function Home() {
           <h3
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="font-light md:w-5/12  text-white md:text-base"
+            className="font-light md:w-5/12 text-sm p-3  text-white md:text-base"
           >
             I'm a WebDeveloper that love making stupid thing and put it on the
             internet.

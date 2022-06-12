@@ -14,7 +14,7 @@ function About() {
         <div className="poppins  text-white"
         >
           <h1 data-aos="fade-up" data-aos-duration="1000" className="md:text-2xl py-4 font-bold uppercase">about me 🤔</h1>
-          <p data-aos="fade-up" data-aos-duration="1500" className="text-sm  md:text-base">
+          <p data-aos="fade-up" data-aos-duration="1500" className="text-sm  md:text-lg">
             I started web debelopment since the end of 2021 and i
             really love learning new technology along everyday  to be
             honest i'm not the best, <br></br> but i'm trying my best in every single

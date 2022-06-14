@@ -8,8 +8,8 @@ function Home() {
   }, []);
   return (
     <>
-      <div className="md:p-64 poppins bg-merah min-h-screen flex md:flex-row  flex-col item-center justify-center md:justify-around">
-        <div className="text-center order-last md:order-first md:text-left">
+      <div className="md:p-52 poppins bg-merah min-h-screen flex md:flex-row  flex-col item-center justify-center md:justify-around">
+        <div className="text-center poppins  order-last md:order-first md:text-left">
           <h1
             data-aos="fade-up"
             data-aos-duration="500"
@@ -27,7 +27,7 @@ function Home() {
           <h3
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="font-light md:w-5/12 text-sm p-3  text-white md:text-base"
+            className="font-light md:w-5/12 text-sm p-2 md:text-left md:-ml-2 text-white md:text-base"
           >
             I'm a WebDeveloper that love making stupid thing and put it on the
             internet.
